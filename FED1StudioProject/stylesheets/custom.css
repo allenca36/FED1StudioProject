@@ -1,0 +1,41 @@
+﻿body {
+
+}
+
+header {
+    background-color: khaki;
+}
+
+main {
+    background-color: lightgray;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 24px;
+}
+
+h2 {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.headingStyle {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+    #asideHeader {
+    background-color: teal;
+    color: lightsalmon;
+    text-decoration: none;
+}
+
+header h1 {
+    color: darkblue;
+}
+
+footer {
+    font-style: italic;
+}
