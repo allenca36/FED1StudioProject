@@ -1,25 +1,26 @@
-﻿body {
+﻿
 
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Space+Mono&display=swap');
+/*font-family: 'Architects Daughter', cursive;
+font-family: 'Space Mono', monospace;*/
+
+
+body {
 }
 
 header {
-    background-color: khaki;
+    background-color: darkgoldenrod;
 }
 
 main {
     background-color: lightgray;
 }
 
-h1 {
+h2 {
     color: darkblue;
     font-size: 24px;
 }
 
-h2 {
-    text-decoration: underline;
-    font-weight: bold;
-    font-size: 20px;
-}
 
 .headingStyle {
     font-weight: bold;
@@ -39,12 +40,36 @@ header h1 {
 footer {
     font-style: italic;
 }
+/*#region Header*/
+#headerOverlay {
+    background-image: url('../images/D20.jpg');
+    background-repeat: no-repeat;
+    background-size: 90px;
+    background-position: 3% center;
+    padding: 2em;
+}
+
+header h2, header p {
+    margin: 7px 0px 1px 150px;
+}
+
+header h2 {
+    text-align: left;
+    letter-spacing: 0.1em;
+    color: #95f3fa;
+}
+
+header {
+    border-radius: 5px;
+}
+/*#endregion*/
 
 /*#region block links*/
+/*
 ul.blocklist {
     background-color: teal;
     padding: 0;
-}
+
     ul.blocklist li {
         list-stlye-type: none;
         list-style-image: none;
@@ -58,6 +83,7 @@ ul.blocklist {
         background-color: darkblue;
         color: lightblue;
     }
+*/
 /*#endregion*/
 /*#region links*/
 a {
@@ -82,9 +108,9 @@ nav a:hover, nav a:active; nav a::after focus {
 }
 
 nav ul{
-    padding: 0;
-    border-top: 2px solid darkgrey;
-    border-bottom: 2px solid darkgray;
+    font-size: 0px;
+    padding: 5px;
+    border: 2px solid darkgrey;
 }
 
 nav li:hover {
@@ -92,11 +118,256 @@ nav li:hover {
 }
 
 nav ul li {
-    display: inline-block;
+    font-size: 18px;
+    display: inline-flex;
 }
 
 nav ul li a {
     padding: .4em 1em;
     display: block;
 }
+
 /*#endregion*/
+
+h1, h2 {
+    text-align: center;
+}
+
+/*#region Contact*/
+.contactStyle a{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: inline;
+    text-decoration: none;
+    padding: 2px;
+    
+}
+h3 {
+    text-align: center;
+}
+.contactStyle div {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: inline;
+    text-decoration: none;
+    padding: 2px;
+}
+
+.contactStyle {
+    margin-top: 50px;
+}
+.backgroundStyle {
+    padding-bottom: 25px;
+}
+.contactHeader {
+    font-size: 50px;
+    padding-top: 25px;
+    margin-bottom: 20px;
+    margin-top: auto;
+}
+/*#region social Icons*/
+div.socialIcons {
+    float: right;
+    margin: 5px;
+    display: inline-block;
+}
+
+    div.socialIcons a:hover {
+        background-color: darkgoldenrod;
+    }
+
+    div.socialIcons a:after, a:active, a:focus {
+        background-color: darkgoldenrod;
+    }
+
+div.socialIconsFooter {
+    float: right;
+    margin: 10px;
+    display: inline-block;
+}
+
+    div.socialIconsFooter a:hover {
+        background-color: white;
+    }
+
+    div.socialIconsFooter a:after, a:active, a:focus {
+        background-color: white;
+    }
+
+/footer ul li {
+    display: inline-block;
+}
+*/
+footer ul li a {
+        padding: .4em 1em;
+        display: inline-block;
+/*#endregion*/
+
+/*#endregion*/
+/*#region Copied*/
+/*#region fonts*/
+
+}
+/*Imported fonts*/
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 0em;/*Removes the margin between navbar and main*/
+}
+
+header p {
+    font-style: italic;
+    font-family: 'Space Mono', monospace;
+}
+
+main h1 {
+    font-family: 'Space Mono', monospace;
+    font-size: 1.75em;
+}
+
+
+/*#endregion*/
+
+/*#region images*/
+
+/*List Style images*/
+/*
+ul li {
+    list-style-image: url('../images/bullet_point_image_teal.png');
+}
+
+aside ul li {
+    list-style-image: url('../images/bullet_point_image_orange.png');
+}
+*/
+
+
+/*
+
+body {
+    background: url(../images/ben-krygsman-745458-unsplash.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+
+nav ul {
+    min-height: 52px;
+    background-image: url(../images/border_wave.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: 200px;
+}
+*/
+/*#endregion*/
+
+
+/*#region*/
+/*
+    div.galleryItem {
+    margin: 5px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 350px;
+}
+
+    div.galleryItem:hover {
+        border: 1px solid lightsalmon;
+    }
+
+    div.galleryItem img {
+        width: 100%;
+        height: auto;
+    }
+
+    div.galleryItem a:hover {
+        background-color: lightsalmon;
+    }
+
+#imageGallery {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+
+.mainWrapper {
+    padding: 1%
+}
+
+.asideWrapper {
+    padding: 1%
+}
+
+footer {
+    padding: 1%
+}
+
+nav ul {
+    margin: 0
+}
+
+aside h2 {
+    padding: 2%
+}
+
+*/
+/*#endregion*/
+
+/*Floating an Image*/
+/*
+#fb, #js {
+    float: right;
+    height: 75px;
+    margin-left: 20px;
+}
+
+#css {
+    float: left;
+    height: 75px;
+    margin-right: 20px;
+}
+
+
+
+#leftColumn {
+    width: 73%;
+    border-right: 1px dashed teal;
+}
+
+#rightColumn {
+    width: 25%;
+    float: right;
+}
+
+aside h2 {
+    margin-top: 0;
+}
+
+#htmlLeftColumn {
+    margin-right: 25%;
+    border-right: 1px dashed teal;
+}
+
+#htmlRightColumn {
+    width: 25%;
+    float: right;
+}
+
+#cssLeftColumn {
+    width: 75%;
+    float: left;
+    border-right: 1px dashed teal;
+    box-sizing: border-box;
+}
+
+#cssRightColumn {
+    width: 25%;
+    float: right;
+}
+
+.clear {
+    clear: both;
+    color: rgb(4,65,170)
+}
+*/
+/*#endregion */
+
