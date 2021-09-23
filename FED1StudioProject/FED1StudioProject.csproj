@@ -69,6 +69,11 @@
   <ItemGroup>
     <Content Include="Classes.html" />
     <Content Include="Contact.html" />
+    <Content Include="images\5296501_linkedin_network_linkedin logo_icon.png" />
+    <Content Include="images\5296517_tweet_twitter_twitter logo_icon.png" />
+    <Content Include="images\5296765_camera_instagram_instagram logo_icon.png" />
+    <Content Include="images\5365678_fb_facebook_facebook logo_icon.png" />
+    <Content Include="images\D20.jpg" />
     <Content Include="index.html" />
     <Content Include="stylesheets\custom.css" />
     <Content Include="Team.html" />
@@ -87,7 +92,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="images\" />
     <Folder Include="scripts\" />
   </ItemGroup>
   <PropertyGroup>
