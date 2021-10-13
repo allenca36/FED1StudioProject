@@ -73,9 +73,20 @@
     <Content Include="images\5296517_tweet_twitter_twitter logo_icon.png" />
     <Content Include="images\5296765_camera_instagram_instagram logo_icon.png" />
     <Content Include="images\5365678_fb_facebook_facebook logo_icon.png" />
+    <Content Include="images\1d6.jpg" />
+    <Content Include="images\bag-o-dice.jpg" />
     <Content Include="images\D20.jpg" />
+    <Content Include="images\2d20.jpg" />
+    <Content Include="images\bunch-of-d6.jpg" />
+    <Content Include="images\4d6.jpg" />
+    <Content Include="images\1-six-sided-die.jpg" />
+    <Content Include="images\3d6.jpg" />
+    <Content Include="images\stock photo.jpg" />
+    <Content Include="images\set-o-dice.jpg" />
     <Content Include="index.html" />
     <Content Include="stylesheets\custom.css" />
+    <Content Include="stylesheets\font-awesome.css" />
+    <Content Include="stylesheets\font-awesome.min.css" />
     <Content Include="Team.html" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -92,6 +103,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="js\" />
     <Folder Include="scripts\" />
   </ItemGroup>
   <PropertyGroup>
